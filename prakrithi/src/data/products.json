@@ -1,0 +1,79 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Kanjeevaram Silk Saree",
+      "category": "saree",
+      "price": "₹12,999",
+      "description": "Pure silk with traditional temple border",
+      "image": "/images/saree1.jpg",
+      "colors": ["#8B0000", "#FFD700", "#228B22"]
+    },
+    {
+      "id": 2,
+      "name": "Cotton Churidar Set",
+      "category": "churidar",
+      "price": "₹2,499",
+      "description": "Comfortable daily wear with elegant embroidery",
+      "image": "/images/churidar1.jpg",
+      "colors": ["#4169E1", "#FFB6C1", "#FFFFFF"]
+    },
+    {
+      "id": 3,
+      "name": "Wedding Silk Saree",
+      "category": "saree",
+      "price": "₹18,999",
+      "description": "Exquisite bridal collection with zari work",
+      "image": "/images/saree2.jpg",
+      "colors": ["#DC143C", "#FFD700", "#9370DB"]
+    },
+    {
+      "id": 4,
+      "name": "Anarkali Churidar",
+      "category": "churidar",
+      "price": "₹3,999",
+      "description": "Festive wear with mirror work detailing",
+      "image": "/images/churidar2.jpg",
+      "colors": ["#32CD32", "#FFFF00", "#FF8C00"]
+    },
+    {
+      "id": 5,
+      "name": "Mysore Silk Saree",
+      "category": "saree",
+      "price": "₹9,999",
+      "description": "Lightweight silk perfect for daily occasions",
+      "image": "/images/saree3.jpg",
+      "colors": ["#00CED1", "#FFB6C1", "#E6E6FA"]
+    },
+    {
+      "id": 6,
+      "name": "Designer Churidar",
+      "category": "churidar",
+      "price": "₹4,499",
+      "description": "Contemporary design with traditional touch",
+      "image": "/images/churidar3.jpg",
+      "colors": ["#FF69B4", "#40E0D0", "#F0E68C"]
+    }
+  ],
+  "heroSection": {
+    "title": "Tradition meets elegance.",
+    "subtitle": "Discover our curated collection of authentic South Indian clothing that celebrates heritage.",
+    "image": "/images/hero-model.jpg"
+  },
+  "sareeSection": {
+    "title": "The timeless saree collection.",
+    "description": "Each saree in our collection tells a story of craftsmanship, tradition, and timeless beauty. From wedding silk to everyday elegance, find the perfect drape for every occasion.",
+    "image": "/images/saree-collection.jpg"
+  },
+  "churidarSection": {
+    "title": "Elegance in every stitch.",
+    "description": "Our churidar collection combines traditional designs with modern comfort. Perfect for daily wear or special occasions, each piece is crafted with attention to detail and quality fabrics.",
+    "image": "/images/churidar-collection.jpg"
+  },
+  "contactInfo": {
+    "address": "123 Tradition Street, Chennai, Tamil Nadu 600001",
+    "phone": "+91 98765 43210",
+    "email": "hello@prakrithiclothing.com",
+    "storeImage": "/images/store-location.jpg"
+  }
+}
