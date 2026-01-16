@@ -1,0 +1,64 @@
+{
+  "brand": {
+    "name": "Prakrithi",
+    "tagline": "CLOTHING TRADITION"
+  },
+  "hero": {
+    "title": "Tradition meets\nelegance.",
+    "subtitle": "Discover our curated collection of authentic\nSouth Indian clothing that celebrates heritage.",
+    "cta": "Explore the collection",
+    "backgroundImage": "/images/hero-model.jpg"
+  },
+  "products": [
+    {
+      "id": 1,
+      "name": "Kanjeevaram Silk Saree",
+      "category": "saree",
+      "price": "₹2,999",
+      "description": "Pure silk with traditional temple border",
+      "image": "/images/saree1.jpg",
+      "colors": ["Maroon", "Gold", "Green"]
+    },
+    {
+      "id": 2,
+      "name": "Cotton Churidar Set",
+      "category": "churidar",
+      "price": "₹1,499",
+      "description": "Comfortable daily wear with elegant embroidery",
+      "image": "/images/churidar1.jpg",
+      "colors": ["Blue", "Pink", "White"]
+    },
+    {
+      "id": 3,
+      "name": "Wedding Silk Saree",
+      "category": "saree",
+      "price": "₹1,999",
+      "description": "Exquisite bridal collection with zari work",
+      "image": "/images/saree2.jpg",
+      "colors": ["Red", "Gold", "Purple"]
+    },
+    {
+      "id": 4,
+      "name": "Anarkali Churidar",
+      "category": "churidar",
+      "price": "₹1,399",
+      "description": "Festive wear with mirror work detailing",
+      "image": "/images/churidar2.jpg",
+      "colors": ["Green", "Yellow", "Orange"]
+    }
+  ],
+  "collections": {
+    "saree": {
+      "image": "/images/saree-collection.jpg"
+    },
+    "churidar": {
+      "image": "/images/churidar-collection.jpg"
+    }
+  },
+  "store": {
+    "locationImage": "/images/store-location.jpg",
+    "address": "Panamaram, Wayanad, Kerala 670721",
+    "phone": "+91 95262 99860",
+    "email": "hello@prakrithiclothing.com"
+  }
+}
