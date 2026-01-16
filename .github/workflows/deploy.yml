@@ -16,6 +16,10 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: prakrithi   # 👈 important
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -25,6 +29,7 @@ jobs:
         with:
           node-version: 20
           cache: npm
+          cache-dependency-path: prakrithi/package-lock.json
 
       - name: Install dependencies
         run: npm ci
@@ -35,7 +40,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: dist
+          path: prakrithi/dist   # 👈 important
 
   deploy:
     environment:
